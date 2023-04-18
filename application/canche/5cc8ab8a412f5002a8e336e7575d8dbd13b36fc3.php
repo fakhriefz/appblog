@@ -1,0 +1,1 @@
+Hello, <?php echo e($name); ?>.<?php /**PATH D:\fakhri web\appblog\application\views/template/backend/tes.blade.php ENDPATH**/ ?>
