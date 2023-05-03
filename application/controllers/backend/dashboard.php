@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 use Jenssegers\Blade\Blade;
 
-class dashboard extends CI_Controller {
+class dashboard extends MY_Controller {
 
 	
 	public function index()

@@ -161,11 +161,11 @@
 
     
 <main class="form-signin w-100 m-auto">
-  <form method="post" action="{{ site_url('login') }}"> 
+<form method="post" action="{{ site_url('login') }}"> 
     
     <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
     
-@if($login_salah != '')
+@if($login_salah !='')
 <div class="alert alert-danger" role="alert">
 {{$login_salah}}
 </div>

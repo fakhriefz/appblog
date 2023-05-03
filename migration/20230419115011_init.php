@@ -26,11 +26,8 @@ final class Init extends AbstractMigration
             'created_at'=>date('Y-m-d'),
 
             ]
-            ]);
-                
+            ]);               
     }
-
-
     protected function down(): void
     {
         $this->table('user')
