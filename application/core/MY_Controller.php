@@ -6,7 +6,7 @@ class MY_Controller extends CI_Controller{
         {
                 parent::__construct();
                 // Your own constructor code
-
+                
                 if (!$this->session->has_userdata('username')){
                     redirect('login');
                 }

@@ -32,8 +32,6 @@ class login extends CI_Controller {
 		view('login', ['login_salah' =>$login_salah]);	
    }
 
-
-
    public function logout(){
 	$this->session->sess_destroy();
 	redirect('login');
