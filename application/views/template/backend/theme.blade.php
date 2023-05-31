@@ -185,7 +185,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{site_url('backend/Article/List')}}">
-              <span data-feather="file" class="align-text-bottom"></span>
+            <span data-feather="file" class="align-text-bottom"></span>
               List Article
             </a>
           </li>
